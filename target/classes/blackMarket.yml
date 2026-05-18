@@ -1,0 +1,37 @@
+settings:
+  refresh_interval_hours: 24 # Market kaç saatte bir yenilensin
+  active_duration_minutes: 60 # Market açıldıktan sonra kaç dakika açık kalsın (-1 yaparsan hep açık kalır)
+  menu_title: "&8Kara Borsa (Yenilenme: %time%)"
+
+rarities:
+  COMMON:
+    display: "&7Yaygın"
+    chance: 60.0
+  RARE:
+    display: "&bNadir"
+    chance: 30.0
+  EPIC:
+    display: "&dEpik"
+    chance: 9.0
+  LEGENDARY:
+    display: "&6Efsanevi"
+    chance: 1.0
+
+items:
+  item1:
+    material: DIAMOND_SWORD
+    display_name: "&bEfsanevi Kılıç"
+    lore:
+      - "&7Nadirlik: %rarity%"
+      - "&7Fiyat: &e%price% Coin"
+      - "&7Stok: &6%stock%"
+    custom_model_data: 0
+    rarity: LEGENDARY
+    price: 50000.0
+    stock: 5
+  item2:
+    material: GOLDEN_APPLE
+    display_name: "&eBüyülü Elma"
+    rarity: RARE
+    price: 2500.0
+    stock: 20

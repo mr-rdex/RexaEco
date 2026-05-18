@@ -1,0 +1,68 @@
+language: "tr"
+
+commands:
+  money:
+    name: "money"
+    aliases: ["balance", "bakiye", "para"]
+  admin:
+    name: "rexaeco"
+    aliases: ["rexa"]
+  bank:
+    name: "banka"
+    aliases: ["bank"]
+  gamble:
+    name: "kumar"
+    aliases: ["gamble", "bahis"]
+  blackmarket:
+    name: "karaborsa"
+    aliases: ["bm", "blackmarket"]
+  market:
+    name: "rexashop"
+    aliases: ["rshop"]
+  sell:
+    name: "sat"
+    aliases: ["sell"]
+  xpcek:
+    name: "xpçek"
+    aliases:
+      - "xpcek"
+      - "withdrawxp"
+  paracek:
+    name: "paraçek"
+    aliases: ["paracek", "withdrawmoney"]
+  pay:
+    name: "pay"
+    aliases: ["paragönder", "paragonder"]
+  sellwand:
+    name: "sellwand"
+    aliases: ["satiscubugu"]
+
+# Çekim İşlemleri İçin Kesinti (Vergi) Ayarları (Sola dayalı olmalı!)
+taxes:
+  xp:
+    enabled: true
+    percentage: 10.0 # %10 XP kesintisi
+  money:
+    enabled: true
+    percentage: 3.0 # %3 Para kesintisi
+
+# --- ÇEK VE XP ŞİŞESİ AYARLARI ---
+xp-bottle:
+  material: "STICK"
+  model: "altinsise" # Sayı yazarsan CustomModelData, harf yazarsan ItemModel kullanır!
+  name: "&a%amount% XP Şişesi"
+  lore:
+    - "&7Çeviren kişi: &f%player%"
+    - "&7Bozdurmak için sağ tıkla!"
+
+money-voucher:
+  material: "PAPER"
+  model: "rexacek" # Harf yazdığımız için 1.21.4 ItemModel sistemini devreye sokacak
+  name: "&e%amount% Dinar Çeki"
+  lore:
+    - "&7Çeviren kişi: &f%player%"
+    - "&7Bozdurmak için sağ tıkla!"
+
+formatting:
+  enabled: true
+  suffixes: ["K", "M", "B", "T", "Q"]

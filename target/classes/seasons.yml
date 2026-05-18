@@ -1,0 +1,12 @@
+# Fiyat çarpanları (1.0 = Normal, 1.2 = %20 Artış, 0.8 = %20 İndirim 1.5 = %50 Artış 2.0 = %100 Artış 0.5 = %50 İndirim)
+SPRING:
+  WHEAT: 0.8
+  POTATO: 0.9
+SUMMER:
+  ICE: 2.0
+  WATER_BUCKET: 1.5
+FALL:
+  PUMPKIN: 0.7
+WINTER:
+  OAK_LOG: 1.5 # Yakacak odun pahalılaşır :)
+  SNOWBALL: 0.5

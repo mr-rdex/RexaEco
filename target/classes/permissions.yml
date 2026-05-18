@@ -1,0 +1,71 @@
+no-permission-message: '&8>> &cBunu yapmak için yetkin yok!'
+
+commands:
+  rexaeco:
+    command-help: 'rexaeco.admin.help'
+    purse-permission: 'rexaeco.admin.purse'
+    bank-permission: 'rexaeco.admin.bank'
+    sharedbank-permission: 'rexaeco.admin.sharedbank'
+    shops-permission: 'rexaeco.admin.shops'
+    reload-permission: 'rexaeco.admin.reload'
+    sellwand: 'rexaeco.admin.sellwand'
+  balance:
+    own: 'rexaeco.balance'
+    other: 'rexaeco.balance.other'
+  reshop:
+    command-help: 'rexaeco.shop.help'
+    open: 'rexaeco.shop.open'
+    forceopen: 'rexaeco.admin.shop.forceopen'
+  pay: 'rexaeco.pay'
+  xpcek: 'rexaeco.xpcek'
+  paracek: 'rexaeco.paracek'
+  sell: 'rexaeco.sell'
+  balancetop:
+    command-help: 'rexaeco.balancetop.help'
+    top-purse: 'rexaeco.balancetop.purse'
+    top-bank: 'rexaeco.balancetop.bank'
+    top-sharedbank: 'rexaeco.balancetop.sharedbank'
+  bank:
+    command-help: 'rexaeco.bank.help'
+    bank-command: 'rexaeco.bank.command'
+    bank-balance: 'rexaeco.bank.balance'
+    bank-balance-other: 'rexaeco.bank.balance.other'
+    bank-withdraw-command: 'rexaeco.bank.withdraw'
+    bank-deposit-command: 'rexaeco.bank.deposit'
+    bank-upgrades-command: 'rexaeco.bank.upgrades'
+    bank-cooldown-bypass: 'rexaeco.bypass.cooldown'
+  talismans:
+    command-help: 'rexaeco.talismans.help'
+    menu-open: 'rexaeco.talismans.open'
+    give-command: 'rexaeco.talismans.give'
+  killcoins: 'rexaeco.killcoins.command'
+  interest:
+    command-help: 'rexaeco.interest.help'
+    speedup: 'rexaeco.interest.speedup'
+    slowdown: 'rexaeco.interest.slowdown'
+    reset: 'rexaeco.interest.reset'
+    force: 'rexaeco.interest.force'
+    interest-check: 'rexaeco.interest'
+
+kill-coins-bypass-limit: 'rexaeco.killcoins.bypass.limit'
+
+# --- BUKKIT VARSAYILAN YETKI TANIMLAMALARI (Default Parametreleri) ---
+permissions:
+  rexaeco.pay:
+    description: "Para gönderme izni"
+    default: true
+  rexaeco.xpcek:
+    description: "XP çekme izni"
+    default: true
+  rexaeco.paracek:
+    description: "Para çekme izni"
+    default: true
+  rexaeco.sell:
+    description: "Satış menüsü izni"
+    default: true
+  rexaeco.admin.sellwand:
+    description: "Satış çubuğu verme izni"
+    default: op
+  rexaeco.admin:
+    description: "Admin komutlarına erişim izni"
+    default: op

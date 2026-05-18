@@ -1,0 +1,15 @@
+interest_cooldown_hours: 31
+
+levels:
+  1:
+    cost: 0
+    interest_rate: 1.5 # Yüzde olarak (Örn: %1.5)
+    capacity: 25000
+  2:
+    cost: 10000
+    interest_rate: 2.0
+    capacity: 100000
+  3:
+    cost: 50000
+    interest_rate: 3.5
+    capacity: 500000

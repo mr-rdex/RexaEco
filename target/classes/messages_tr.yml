@@ -1,0 +1,89 @@
+# --- GENEL MESAJLAR ---
+prefix: "&x&f&f&f&f&f&f&lʀ&x&f&f&f&8&d&5&lᴇ&x&f&e&f&1&a&a&lx&x&f&e&e&a&8&0&lᴀ&x&f&e&e&3&5&5&lɢ&x&f&d&d&c&2&b&lᴏ&x&f&d&d&5&0&0&lɴ &a» &r"
+no-permission: "%prefix%&cBu komutu kullanmak için yetkiniz yok!"
+only-players: "%prefix%&cSadece oyuncular bu komutu kullanabilir."
+
+# --- EKONOMİ VE BANKA ---
+economy:
+  balance: "%prefix%&aMevcut Bakiyeniz: &e%amount% Dinar"
+  money-given: "%prefix%&a%amount% Dinar verildi."
+  money-taken: "%prefix%&a%amount% Dinar alındı."
+  insufficient-funds: "&cYetersiz bakiye!"
+
+bank:
+  balance: "&aBanka Bakiyeniz: &e%amount% Dinar"
+  upgraded: "&aBankanız %level%. seviyeye yükseltildi!"
+  interest-earned: "&aBankadan %amount% Dinar faiz kazandınız!"
+  cooldown: "&cFaiz almak için beklemeniz gerekiyor: &e%time%"
+
+killDinars:
+  earned: "&a+%amount% Dinar kazandınız! &7(%entity%)"
+
+# --- MARKET VE SATIŞ SİSTEMİ ---
+market:
+  buy-success: "%prefix%&a%amount% adet &e%item% &a%price% Dinar ödenerek satın alındı!"
+  sell-success: "%prefix%&a%amount% adet &e%item% &asatıldı! Hesabınıza &e%price% Dinar &ayatırıldı."
+  cannot-buy: "&cBu eşya şu anda satın alınamaz!"
+  balance-info-name: "&6ʙᴀᴋɪʏᴇɴɪᴢ:"
+  balance-info-lore: "&a%balance% ᴅɪɴᴀʀ"
+  buy-price-lore: "&7ᴀʟɪş ꜰɪʏᴀᴛɪ: &a%price% ᴅɪɴᴀʀ"
+  sell-price-lore: "&7ѕᴀᴛɪş ꜰɪʏᴀᴛɪ: &e%price% ᴅɪɴᴀʀ"
+  cannot-buy-lore: "&7ᴀʟɪş ꜰɪʏᴀᴛɪ: &cѕᴀᴛɪɴ ᴀʟɪɴᴀᴍᴀᴢ!"
+  cannot-sell-lore: "&7ѕᴀᴛɪş ꜰɪʏᴀᴛɪ: &cѕᴀᴛɪʟᴀᴍᴀᴢ!"
+  left-click-buy: "&aѕᴀᴛɪɴ ᴀʟᴍᴀᴋ ɪçɪɴ ѕᴏʟ ᴛɪᴋʟᴀ!"
+  right-click-sell: "&eѕᴀᴛᴍᴀᴋ ɪçɪɴ ѕᴀɢ ᴛɪᴋʟᴀ!"
+  previous-page: "&a← öɴᴄᴇᴋɪ"
+  next-page: "&aѕᴏɴʀᴀᴋɪ →"
+
+sell-menu:
+  sell-success: "%prefix%&aBaşarıyla &e%amount% Dinar &adeğerinde eşya sattın!"
+  items-returned: "%prefix%&cBazı eşyaların değeri olmadığı için satılamadı ve envanterine geri verildi."
+
+# --- ADMİN KOMUTLARI ---
+admin-command:
+  help: "&eKullanım: /%cmd% <give|take|set|reload|upgradebank|claiminterest> [oyuncu] [miktar]"
+  usage: "&cKullanım: /%cmd% %action% <oyuncu> [miktar]"
+  reload: "%prefix%&eTüm yapılandırma dosyaları (.yml) başarıyla yenilendi!"
+  bank-upgraded: "%prefix%&a%player% isimli oyuncunun bankası yükseltildi."
+  bank-interest: "%prefix%&a%player% için faiz işlemi tetiklendi."
+  player-not-found: "%prefix%&cOyuncu çevrimiçi değil veya bulunamadı!"
+  need-amount: "%prefix%&cBu işlem için miktar belirtmelisiniz."
+  invalid-amount: "%prefix%&cGeçerli bir miktar girin."
+  money-given: "%prefix%&a%player% adlı oyuncuya &e%amount% Dinar &averildi."
+  money-taken: "%prefix%&a%player% adlı oyuncudan &e%amount% Dinar &aalındı."
+  money-set: "%prefix%&a%player% adlı oyuncunun bakiyesi &e%amount% Dinar &aolarak ayarlandı."
+  invalid-action: "%prefix%&cGeçersiz işlem!"
+
+# --- ÇEK VE ŞİŞE SİSTEMLERİ ---
+xp-system:
+  usage: "%prefix%&cSadece 100, 500 veya 1000 xp çekebilirsin!"
+  not-enough: "%prefix%&cYeterli XP'niz yok! Mevcut XP: &e%current%"
+  tax-note: "%prefix%&cNot: Bu işlem için &e%tax% XP &ckesinti uygulanmaktadır."
+  withdrawn: "%prefix%&aBaşarıyla &e%amount% XP &aXP şişelediniz!"
+  withdrawn-tax-suffix: " &7(-%tax% Kesinti)"
+  redeemed: "%prefix%&aŞişeden &e%amount% XP &akazandınız!"
+
+money-system:
+  usage: "%prefix%&cKullanım: /paraçek <miktar>"
+  invalid-amount: "%prefix%&cGeçerli, pozitif bir miktar girin."
+  not-enough: "%prefix%&cYeterli Dinar'ınız yok! Mevcut Bakiye: &e%current%"
+  tax-note: "%prefix%&cNot: Bu işlem için &e%tax% Dinar &ckesinti uygulanmaktadır."
+  withdrawn: "%prefix%&aBaşarıyla &e%amount% Dinar &açektiniz!"
+  withdrawn-tax-suffix: " &7(-%tax% Kesinti)"
+  redeemed: "%prefix%&aÇeki bozdurdunuz ve hesabınıza &e%amount% Dinar &aeklendi!"
+
+pay-system:
+  usage: "%prefix%&cKullanım: /pay <oyuncu> <miktar>"
+  invalid-amount: "%prefix%&cGeçerli, pozitif bir miktar girin."
+  not-enough: "%prefix%&cYeterli Dinar'ınız yok! Mevcut Bakiye: &e%current%"
+  player-not-found: "%prefix%&cOyuncu bulunamadı veya daha önce hiç oynamadı!"
+  cannot-pay-self: "%prefix%&cKendinize para gönderemezsiniz!"
+  sent: "%prefix%&a%player% &aadlı oyuncuya başarıyla &e%amount% Dinar &agönderdiniz!"
+  received: "%prefix%&a%player% &aadlı oyuncu size &e%amount% Dinar &agönderdi!"
+
+sell-wand:
+  received: "&aTebrikler! &eSatış Çubuğu &akazandınız."
+  given: "&e%player% &aadlı oyuncuya satış çubuğu verildi."
+  sold: "&aSandıktaki &e%amount% &aadet eşya satıldı ve &e%price% Dinar &akazandınız!"
+  no-items: "&cSandıkta satılabilecek hiçbir eşya bulunamadı."
+  player-not-found: "&cOyuncu bulunamadı veya aktif değil!"

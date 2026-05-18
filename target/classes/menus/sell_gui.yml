@@ -1,0 +1,23 @@
+menu_title: "&8ʜɪᴢʟɪ ѕᴀᴛɪş ᴍᴇɴüѕü"
+size: 54
+
+# Dekorasyon camları
+border_material: GRAY_STAINED_GLASS_PANE
+border_slots: [0,1,2,3,4,5,6,7,8,9,17,18,26,27,35,36,44,45,46,47,48,50,51,52,53]
+
+# Satış Bilgisi Butonu
+info_item:
+  slot: 49
+  material: GOLD_BLOCK
+  display: "&6&lѕᴀᴛɪş ʙɪʟɢɪѕɪ"
+  lore_empty:
+    - "&7ѕᴀᴛᴍᴀᴋ ɪѕᴛᴇᴅɪğɪɴ"
+    - "&7ᴇşʏᴀʟᴀʀɪ ʏᴜᴋᴀʀɪʏᴀ ʏᴇʀʟᴇşᴛɪʀ."
+  lore_filled:
+    - "&7ᴛᴏᴘʟᴀᴍ ѕᴀᴛɪş ꜰɪʏᴀᴛɪ: &a%total_price% &6ᴅɪɴᴀʀ"
+    - ""
+    - "&6&l[!] &eᴍᴇɴüʏü ᴋᴀᴘᴀᴛᴛɪɢɪɴᴅᴀ ѕᴀᴛɪş ɢᴇʀçᴇᴋʟᴇşɪʀ."
+
+# Oyuncunun eşya koyabileceği slotlar (0-44 arası)
+# Bu slotlar dışındaki her yer kilitli olacak.
+input_slots: [10,11,12,13,14,15,16,19,20,21,22,23,24,25,28,29,30,31,32,33,34,37,38,39,40,41,42,43]

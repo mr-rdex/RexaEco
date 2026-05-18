@@ -1,0 +1,25 @@
+menu_title: "&8%item% ᴇşʏᴀѕɪɴɪ ѕᴀᴛɪɴ ᴀʟɪʏᴏʀѕᴜɴ."
+size: 54
+
+border_material: GRAY_STAINED_GLASS_PANE
+border_slots: [0,1,2,3,4,5,6,7,8,45,46,47,48,49,50,51,52,53,9,17,18,26,27,35,36,44]
+
+items:
+  display:
+    slot: 22
+    lore:
+      - "&7ʙɪʀɪᴍ ꜰɪʏᴀᴛɪ: &e%unit_price%"
+      - "&7ᴛᴏᴘʟᴀᴍ ꜰɪʏᴀᴛ: &a%total_price%"
+  
+
+  adjust_minus_64: { slot: 19, material: RED_STAINED_GLASS_PANE, amount: -64, display: "&c-64" }
+  adjust_minus_10: { slot: 20, material: YELLOW_STAINED_GLASS_PANE, amount: -10, display: "&c-10" }
+  adjust_minus_1:  { slot: 21, material: YELLOW_STAINED_GLASS_PANE, amount: -1,  display: "&c-1" }
+  
+  adjust_plus_1:   { slot: 23, material: CYAN_STAINED_GLASS_PANE, amount: 1,   display: "&a+1" }
+  adjust_plus_10:  { slot: 24, material: CYAN_STAINED_GLASS_PANE, amount: 10,  display: "&a+10" }
+  adjust_plus_64:  { slot: 25, material: LIME_STAINED_GLASS_PANE, amount: 64,  display: "&a+64" }
+
+  stack_mode: { slot: 41, material: SHULKER_SHELL, display: "&d&lçᴏᴋʟᴜ ѕᴀᴛɪɴ ᴀʟ"}
+  confirm: { slot: 40, material: EMERALD_BLOCK, display: "&a&lѕᴀᴛɪɴ ᴀʟ" }
+  back: { slot: 39, material: REDSTONE, display: "&c&lɪᴘᴛᴀʟ ᴇᴛ" }

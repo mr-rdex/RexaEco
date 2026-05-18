@@ -1,0 +1,20 @@
+enabled: true
+min_amount: 100.0
+max_amount: 1000000.0
+chances:
+  kaybet:
+    chance: 50.0 # %50 İhtimal
+    multiplier: 0.0 # Paranın tamamı gider
+    message: "&cMaalesef kaybettin! &e%amount% &ccoin gitti."
+  amorti:
+    chance: 20.0 # %20 İhtimal
+    multiplier: 1.0 # Parasını geri alır
+    message: "&eAmorti! Paranızı geri aldınız."
+  kucuk_kazanc:
+    chance: 20.0 # %20 İhtimal
+    multiplier: 1.5 # %50 kâr
+    message: "&aTebrikler! &e%amount% &acoin kazandınız! (x1.5)"
+  buyuk_kazanc:
+    chance: 10.0 # %10 İhtimal
+    multiplier: 2.0 # 2 Katı
+    message: "&aŞANS YANINDA! &e%amount% &acoin kazandınız! (x2)"

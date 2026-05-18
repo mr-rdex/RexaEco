@@ -1,0 +1,8 @@
+name: RexaEco
+version: '1.8.4'
+main: rexagon.rexaeco.RexaEco
+api-version: '1.21'
+authors: [byrdex_]
+description: Rexagon Economy plugin.
+depend: [Vault]
+softdepend: [PlaceholderAPI, SuperiorSkyBlock2]

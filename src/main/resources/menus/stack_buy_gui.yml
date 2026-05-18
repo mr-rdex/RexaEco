@@ -1,0 +1,12 @@
+menu_title: "&564'ʟüᴋ ѕᴀᴛɪɴ ᴀʟ: &a%item%"
+size: 9
+items:
+  stack_1: { slot: 0, amount: 1, display: "&e1x64 ѕᴀᴛɪɴ ᴀʟ", material: AIR }
+  stack_2: { slot: 1, amount: 2, display: "&e2x64 ѕᴀᴛɪɴ ᴀʟ", material: AIR }
+  stack_3: { slot: 2, amount: 3, display: "&e3x64 ѕᴀᴛɪɴ ᴀʟ", material: AIR }
+  stack_4: { slot: 3, amount: 4, display: "&e4x64 ѕᴀᴛɪɴ ᴀʟ", material: AIR }
+  stack_5: { slot: 4, amount: 5, display: "&e5x64 ѕᴀᴛɪɴ ᴀʟ", material: AIR }
+  stack_6: { slot: 5, amount: 6, display: "&e6x64 ѕᴀᴛɪɴ ᴀʟ", material: AIR }
+  stack_7: { slot: 6, amount: 7, display: "&e7x64 ѕᴀᴛɪɴ ᴀʟ", material: AIR }
+  stack_8: { slot: 7, amount: 8, display: "&e8x64 ѕᴀᴛɪɴ ᴀʟ", material: AIR }
+  cancel:  { slot: 8, material: BARRIER, display: "&cɪᴘᴛᴀʟ ᴇᴛ / ɢᴇʀɪ ᴅöɴ" }

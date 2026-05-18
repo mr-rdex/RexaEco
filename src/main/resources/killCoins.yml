@@ -1,0 +1,18 @@
+enabled: true
+global_daily_coin_limit: 500000.0 # Bir oyuncunun günlük yaratıklardan kazanabileceği maksimum coin
+
+entities:
+  ZOMBIE:
+    enabled: true
+    permission: "rexa.killcoins.zombie"
+    min_coins: 5.0
+    max_coins: 15.0
+    chance: 100.0 # %100 oran
+    daily_kill_limit: 1000 # Günlük kesme sınırı
+  SKELETON:
+    enabled: true
+    permission: "" # Boş bırakırsan yetki istemez
+    min_coins: 10.0
+    max_coins: 25.0
+    chance: 50.0 # %50 ihtimalle verir
+    daily_kill_limit: 500

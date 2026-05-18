@@ -1,0 +1,1129 @@
+# RexaShop Market Kategorileri ve Eşyaları
+# ÖNEMLİ: Eşyalar "items" altında, kategorisine göre dizilmelidir.
+
+items:
+  blok: # /rexashop open blok <isim> komutu burayı açar
+    # ==========================================
+    # 1. BÖLÜM: TOPRAK VE DOĞAL ZEMİNLER
+    # ==========================================
+    GRASS_BLOCK:
+      material: GRASS_BLOCK
+      display_name: "&aÇimen Bloğu"
+    DIRT:
+      material: DIRT
+      display_name: "&6Toprak"
+    COARSE_DIRT:
+      material: COARSE_DIRT
+      display_name: "&6İri Taneli Toprak"
+    MOSS_BLOCK:
+      material: MOSS_BLOCK
+      display_name: "&2Yosun Bloğu"
+    MYCELIUM:
+      material: MYCELIUM
+      display_name: "&5Miselyum"
+    PODZOL:
+      material: PODZOL
+      display_name: "&6Podzol"
+    GRAVEL:
+      material: GRAVEL
+      display_name: "&7Çakıl"
+    SNOW_BLOCK:
+      material: SNOW_BLOCK
+      display_name: "&fKar Bloğu"
+
+    # ==========================================
+    # 2. BÖLÜM: TAŞLAR VE YOSUNLU YAPILAR
+    # ==========================================
+    COBBLESTONE:
+      material: COBBLESTONE
+      display_name: "&8Kırıktaş"
+    MOSSY_COBBLESTONE:
+      material: MOSSY_COBBLESTONE
+      display_name: "&2Yosunlu Kırıktaş"
+    STONE:
+      material: STONE
+      display_name: "&7Taş"
+    STONE_BRICKS:
+      material: STONE_BRICKS
+      display_name: "&7Taş Tuğla"
+    MOSSY_STONE_BRICKS:
+      material: MOSSY_STONE_BRICKS
+      display_name: "&2Yosunlu Taş Tuğla"
+    ANDESITE:
+      material: ANDESITE
+      display_name: "&7Andezit"
+    POLISHED_ANDESITE:
+      material: POLISHED_ANDESITE
+      display_name: "&7Cilalı Andezit"
+    DIORITE:
+      material: DIORITE
+      display_name: "&fDiyorit"
+    POLISHED_DIORITE:
+      material: POLISHED_DIORITE
+      display_name: "&fCilalı Diyorit"
+    GRANITE:
+      material: GRANITE
+      display_name: "&cGranit"
+    POLISHED_GRANITE:
+      material: POLISHED_GRANITE
+      display_name: "&cCilalı Granit"
+    BLACKSTONE:
+      material: BLACKSTONE
+      display_name: "&8Kara Taş"
+    BASALT:
+      material: BASALT
+      display_name: "&8Bazalt"
+
+    # ==========================================
+    # 3. BÖLÜM: ODUNLAR, YAPRAKLAR VE MANTARLAR
+    # ==========================================
+    OAK_LOG:
+      material: OAK_LOG
+      display_name: "&eMeşe Kütüğü"
+    SPRUCE_LOG:
+      material: SPRUCE_LOG
+      display_name: "&6Ladin Kütüğü"
+    BIRCH_LOG:
+      material: BIRCH_LOG
+      display_name: "&fHuş Kütüğü"
+    JUNGLE_LOG:
+      material: JUNGLE_LOG
+      display_name: "&aOrman Ağacı Kütüğü"
+    ACACIA_LOG:
+      material: ACACIA_LOG
+      display_name: "&6Akasya Kütüğü"
+    DARK_OAK_LOG:
+      material: DARK_OAK_LOG
+      display_name: "&8Koyu Meşe Kütüğü"
+    OAK_LEAVES:
+      material: OAK_LEAVES
+      display_name: "&aMeşe Yaprakları"
+    SPRUCE_LEAVES:
+      material: SPRUCE_LEAVES
+      display_name: "&2Ladin Yaprakları"
+    BIRCH_LEAVES:
+      material: BIRCH_LEAVES
+      display_name: "&aHuş Yaprakları"
+    JUNGLE_LEAVES:
+      material: JUNGLE_LEAVES
+      display_name: "&aOrman Ağacı Yaprakları"
+    ACACIA_LEAVES:
+      material: ACACIA_LEAVES
+      display_name: "&aAkasya Yaprakları"
+    DARK_OAK_LEAVES:
+      material: DARK_OAK_LEAVES
+      display_name: "&2Koyu Meşe Yaprakları"
+    RED_MUSHROOM_BLOCK:
+      material: RED_MUSHROOM_BLOCK
+      display_name: "&cKırmızı Mantar Bloğu"
+    MUSHROOM_STEM:
+      material: MUSHROOM_STEM
+      display_name: "&fMantar Sapı"
+    BONE_BLOCK:
+      material: BONE_BLOCK
+      display_name: "&fKemik Bloğu"
+
+    # ==========================================
+    # 4. BÖLÜM: DENİZ VE MERCAN GALERİSİ
+    # ==========================================
+    TUBE_CORAL_BLOCK:
+      material: TUBE_CORAL_BLOCK
+      display_name: "&9Tüp Mercan Bloğu"
+    BRAIN_CORAL_BLOCK:
+      material: BRAIN_CORAL_BLOCK
+      display_name: "&dBeyin Mercan Bloğu"
+    BUBBLE_CORAL_BLOCK:
+      material: BUBBLE_CORAL_BLOCK
+      display_name: "&5Baloncuk Mercan Bloğu"
+    FIRE_CORAL_BLOCK:
+      material: FIRE_CORAL_BLOCK
+      display_name: "&cAteş Mercan Bloğu"
+    HORN_CORAL_BLOCK:
+      material: HORN_CORAL_BLOCK
+      display_name: "&eBoynuz Mercan Bloğu"
+    DEAD_BRAIN_CORAL_BLOCK:
+      material: DEAD_BRAIN_CORAL_BLOCK
+      display_name: "&8Ölü Beyin Mercanı Bloğu"
+
+    # ==========================================
+    # 5. BÖLÜM: KUM, NETHER VE MAGMA
+    # ==========================================
+    SAND:
+      material: SAND
+      display_name: "&eKum"
+    SANDSTONE:
+      material: SANDSTONE
+      display_name: "&eKum Taşı"
+    CUT_SANDSTONE:
+      material: CUT_SANDSTONE
+      display_name: "&eKesilmiş Kum Taşı"
+    SMOOTH_SANDSTONE:
+      material: SMOOTH_SANDSTONE
+      display_name: "&eDüz Kum Taşı"
+    CHISELED_SANDSTONE:
+      material: CHISELED_SANDSTONE
+      display_name: "&eYontulmuş Kum Taşı"
+    RED_SAND:
+      material: RED_SAND
+      display_name: "&cKırmızı Kum"
+    RED_SANDSTONE:
+      material: RED_SANDSTONE
+      display_name: "&cKırmızı Kum Taşı"
+    CUT_RED_SANDSTONE:
+      material: CUT_RED_SANDSTONE
+      display_name: "&cKesilmiş Kırmızı Kum Taşı"
+    SMOOTH_RED_SANDSTONE:
+      material: SMOOTH_RED_SANDSTONE
+      display_name: "&cDüz Kırmızı Kum Taşı"
+    CHISELED_RED_SANDSTONE:
+      material: CHISELED_RED_SANDSTONE
+      display_name: "&cYontulmuş Kırmızı Kum Taşı"
+    NETHERRACK:
+      material: NETHERRACK
+      display_name: "&cNetherrack"
+    SOUL_SAND:
+      material: SOUL_SAND
+      display_name: "&8Ruh Kumu"
+    SOUL_SOIL:
+      material: SOUL_SOIL
+      display_name: "&8Ruh Toprağı"
+    CRIMSON_NYLIUM:
+      material: CRIMSON_NYLIUM
+      display_name: "&cKızıl Niselyum"
+    WARPED_NYLIUM:
+      material: WARPED_NYLIUM
+      display_name: "&3Çarpık Niselyum"
+    CRIMSON_ROOTS:
+      material: CRIMSON_ROOTS
+      display_name: "&cKızıl Kök"
+    WARPED_ROOTS:
+      material: WARPED_ROOTS
+      display_name: "&3Çarpık Kök"
+    NETHER_WART_BLOCK:
+      material: NETHER_WART_BLOCK
+      display_name: "&cNether Yumrusu Bloğu"
+    WARPED_WART_BLOCK:
+      material: WARPED_WART_BLOCK
+      display_name: "&3Çarpık Yumru Bloğu"
+    MAGMA_BLOCK:
+      material: MAGMA_BLOCK
+      display_name: "&6Magma Bloğu"
+    SHROOMLIGHT:
+      material: SHROOMLIGHT
+      display_name: "&6Mantarışığı"
+    FLINT:
+      material: FLINT
+      display_name: "&8Çakmak Taşı"
+
+    # ==========================================
+    # 6. BÖLÜM: RENK VE DEKORASYON
+    # ==========================================
+    # --- Camlar ---
+    GLASS:
+      material: GLASS
+      display_name: "&fCam"
+    WHITE_STAINED_GLASS:
+      material: WHITE_STAINED_GLASS
+      display_name: "&fBeyaz Boyalı Cam"
+    ORANGE_STAINED_GLASS:
+      material: ORANGE_STAINED_GLASS
+      display_name: "&6Turuncu Boyalı Cam"
+    MAGENTA_STAINED_GLASS:
+      material: MAGENTA_STAINED_GLASS
+      display_name: "&dMacenta Boyalı Cam"
+    LIGHT_BLUE_STAINED_GLASS:
+      material: LIGHT_BLUE_STAINED_GLASS
+      display_name: "&bAçık Mavi Boyalı Cam"
+    YELLOW_STAINED_GLASS:
+      material: YELLOW_STAINED_GLASS
+      display_name: "&eSarı Boyalı Cam"
+    LIME_STAINED_GLASS:
+      material: LIME_STAINED_GLASS
+      display_name: "&aAçık Yeşil Boyalı Cam"
+    PINK_STAINED_GLASS:
+      material: PINK_STAINED_GLASS
+      display_name: "&dPembe Boyalı Cam"
+    GRAY_STAINED_GLASS:
+      material: GRAY_STAINED_GLASS
+      display_name: "&8Gri Boyalı Cam"
+    LIGHT_GRAY_STAINED_GLASS:
+      material: LIGHT_GRAY_STAINED_GLASS
+      display_name: "&7Açık Gri Boyalı Cam"
+    CYAN_STAINED_GLASS:
+      material: CYAN_STAINED_GLASS
+      display_name: "&3Camgöbeği Boyalı Cam"
+    PURPLE_STAINED_GLASS:
+      material: PURPLE_STAINED_GLASS
+      display_name: "&5Mor Boyalı Cam"
+    BLUE_STAINED_GLASS:
+      material: BLUE_STAINED_GLASS
+      display_name: "&9Mavi Boyalı Cam"
+    BROWN_STAINED_GLASS:
+      material: BROWN_STAINED_GLASS
+      display_name: "&6Kahverengi Boyalı Cam"
+    GREEN_STAINED_GLASS:
+      material: GREEN_STAINED_GLASS
+      display_name: "&2Yeşil Boyalı Cam"
+    RED_STAINED_GLASS:
+      material: RED_STAINED_GLASS
+      display_name: "&cKırmızı Boyalı Cam"
+    BLACK_STAINED_GLASS:
+      material: BLACK_STAINED_GLASS
+      display_name: "&0Siyah Boyalı Cam"
+
+    # ==========================================
+    # 7. BÖLÜM: YÜNLER
+    # ==========================================
+    WHITE_WOOL:
+      material: WHITE_WOOL
+      display_name: "&fBeyaz Yün"
+    ORANGE_WOOL:
+      material: ORANGE_WOOL
+      display_name: "&6Turuncu Yün"
+    MAGENTA_WOOL:
+      material: MAGENTA_WOOL
+      display_name: "&dMacenta Yün"
+    LIGHT_BLUE_WOOL:
+      material: LIGHT_BLUE_WOOL
+      display_name: "&bAçık Mavi Yün"
+    YELLOW_WOOL:
+      material: YELLOW_WOOL
+      display_name: "&eSarı Yün"
+    LIME_WOOL:
+      material: LIME_WOOL
+      display_name: "&aAçık Yeşil Yün"
+    PINK_WOOL:
+      material: PINK_WOOL
+      display_name: "&dPembe Yün"
+    GRAY_WOOL:
+      material: GRAY_WOOL
+      display_name: "&8Gri Yün"
+    LIGHT_GRAY_WOOL:
+      material: LIGHT_GRAY_WOOL
+      display_name: "&7Açık Gri Yün"
+    CYAN_WOOL:
+      material: CYAN_WOOL
+      display_name: "&3Camgöbeği Yün"
+    PURPLE_WOOL:
+      material: PURPLE_WOOL
+      display_name: "&5Mor Yün"
+    BLUE_WOOL:
+      material: BLUE_WOOL
+      display_name: "&9Mavi Yün"
+    BROWN_WOOL:
+      material: BROWN_WOOL
+      display_name: "&6Kahverengi Yün"
+    GREEN_WOOL:
+      material: GREEN_WOOL
+      display_name: "&2Yeşil Yün"
+    RED_WOOL:
+      material: RED_WOOL
+      display_name: "&cKırmızı Yün"
+    BLACK_WOOL:
+      material: BLACK_WOOL
+      display_name: "&0Siyah Yün"
+
+    # ==========================================
+    # 8. BÖLÜM: BETONLAR
+    # ==========================================
+    WHITE_CONCRETE:
+      material: WHITE_CONCRETE
+      display_name: "&fBeyaz Beton"
+    ORANGE_CONCRETE:
+      material: ORANGE_CONCRETE
+      display_name: "&6Turuncu Beton"
+    MAGENTA_CONCRETE:
+      material: MAGENTA_CONCRETE
+      display_name: "&dMacenta Beton"
+    LIGHT_BLUE_CONCRETE:
+      material: LIGHT_BLUE_CONCRETE
+      display_name: "&bAçık Mavi Beton"
+    YELLOW_CONCRETE:
+      material: YELLOW_CONCRETE
+      display_name: "&eSarı Beton"
+    LIME_CONCRETE:
+      material: LIME_CONCRETE
+      display_name: "&aAçık Yeşil Beton"
+    PINK_CONCRETE:
+      material: PINK_CONCRETE
+      display_name: "&dPembe Beton"
+    GRAY_CONCRETE:
+      material: GRAY_CONCRETE
+      display_name: "&8Gri Beton"
+    LIGHT_GRAY_CONCRETE:
+      material: LIGHT_GRAY_CONCRETE
+      display_name: "&7Açık Gri Beton"
+    CYAN_CONCRETE:
+      material: CYAN_CONCRETE
+      display_name: "&3Camgöbeği Beton"
+    PURPLE_CONCRETE:
+      material: PURPLE_CONCRETE
+      display_name: "&5Mor Beton"
+    BLUE_CONCRETE:
+      material: BLUE_CONCRETE
+      display_name: "&9Mavi Beton"
+    BROWN_CONCRETE:
+      material: BROWN_CONCRETE
+      display_name: "&6Kahverengi Beton"
+    GREEN_CONCRETE:
+      material: GREEN_CONCRETE
+      display_name: "&2Yeşil Beton"
+    RED_CONCRETE:
+      material: RED_CONCRETE
+      display_name: "&cKırmızı Beton"
+    BLACK_CONCRETE:
+      material: BLACK_CONCRETE
+      display_name: "&0Siyah Beton"
+
+    # ==========================================
+    # 9. BÖLÜM: ÇİMENTOLAR
+    # ==========================================
+    WHITE_CONCRETE_POWDER:
+      material: WHITE_CONCRETE_POWDER
+      display_name: "&fBeyaz Çimento"
+    ORANGE_CONCRETE_POWDER:
+      material: ORANGE_CONCRETE_POWDER
+      display_name: "&6Turuncu Çimento"
+    MAGENTA_CONCRETE_POWDER:
+      material: MAGENTA_CONCRETE_POWDER
+      display_name: "&dMacenta Çimento"
+    LIGHT_BLUE_CONCRETE_POWDER:
+      material: LIGHT_BLUE_CONCRETE_POWDER
+      display_name: "&bAçık Mavi Çimento"
+    YELLOW_CONCRETE_POWDER:
+      material: YELLOW_CONCRETE_POWDER
+      display_name: "&eSarı Çimento"
+    LIME_CONCRETE_POWDER:
+      material: LIME_CONCRETE_POWDER
+      display_name: "&aAçık Yeşil Çimento"
+    PINK_CONCRETE_POWDER:
+      material: PINK_CONCRETE_POWDER
+      display_name: "&dPembe Çimento"
+    GRAY_CONCRETE_POWDER:
+      material: GRAY_CONCRETE_POWDER
+      display_name: "&8Gri Çimento"
+    LIGHT_GRAY_CONCRETE_POWDER:
+      material: LIGHT_GRAY_CONCRETE_POWDER
+      display_name: "&7Açık Gri Çimento"
+    CYAN_CONCRETE_POWDER:
+      material: CYAN_CONCRETE_POWDER
+      display_name: "&3Camgöbeği Çimento"
+    PURPLE_CONCRETE_POWDER:
+      material: PURPLE_CONCRETE_POWDER
+      display_name: "&5Mor Çimento"
+    BLUE_CONCRETE_POWDER:
+      material: BLUE_CONCRETE_POWDER
+      display_name: "&9Mavi Çimento"
+    BROWN_CONCRETE_POWDER:
+      material: BROWN_CONCRETE_POWDER
+      display_name: "&6Kahverengi Çimento"
+    GREEN_CONCRETE_POWDER:
+      material: GREEN_CONCRETE_POWDER
+      display_name: "&2Yeşil Çimento"
+    RED_CONCRETE_POWDER:
+      material: RED_CONCRETE_POWDER
+      display_name: "&cKırmızı Çimento"
+    BLACK_CONCRETE_POWDER:
+      material: BLACK_CONCRETE_POWDER
+      display_name: "&0Siyah Çimento"
+
+    # ==========================================
+    # 10. BÖLÜM: TERAKOTALAR
+    # ==========================================
+    TERRACOTTA:
+      material: TERRACOTTA
+      display_name: "&6Terakota"
+    WHITE_TERRACOTTA:
+      material: WHITE_TERRACOTTA
+      display_name: "&fBeyaz Terakota"
+    ORANGE_TERRACOTTA:
+      material: ORANGE_TERRACOTTA
+      display_name: "&6Turuncu Terakota"
+    MAGENTA_TERRACOTTA:
+      material: MAGENTA_TERRACOTTA
+      display_name: "&dMacenta Terakota"
+    LIGHT_BLUE_TERRACOTTA:
+      material: LIGHT_BLUE_TERRACOTTA
+      display_name: "&bAçık Mavi Terakota"
+    YELLOW_TERRACOTTA:
+      material: YELLOW_TERRACOTTA
+      display_name: "&eSarı Terakota"
+    LIME_TERRACOTTA:
+      material: LIME_TERRACOTTA
+      display_name: "&aAçık Yeşil Terakota"
+    PINK_TERRACOTTA:
+      material: PINK_TERRACOTTA
+      display_name: "&dPembe Terakota"
+    GRAY_TERRACOTTA:
+      material: GRAY_TERRACOTTA
+      display_name: "&8Gri Terakota"
+    LIGHT_GRAY_TERRACOTTA:
+      material: LIGHT_GRAY_TERRACOTTA
+      display_name: "&7Açık Gri Terakota"
+    CYAN_TERRACOTTA:
+      material: CYAN_TERRACOTTA
+      display_name: "&3Camgöbeği Terakota"
+    PURPLE_TERRACOTTA:
+      material: PURPLE_TERRACOTTA
+      display_name: "&5Mor Terakota"
+    BLUE_TERRACOTTA:
+      material: BLUE_TERRACOTTA
+      display_name: "&9Mavi Terakota"
+    BROWN_TERRACOTTA:
+      material: BROWN_TERRACOTTA
+      display_name: "&6Kahverengi Terakota"
+    GREEN_TERRACOTTA:
+      material: GREEN_TERRACOTTA
+      display_name: "&2Yeşil Terakota"
+    RED_TERRACOTTA:
+      material: RED_TERRACOTTA
+      display_name: "&cKırmızı Terakota"
+    BLACK_TERRACOTTA:
+      material: BLACK_TERRACOTTA
+      display_name: "&0Siyah Terakota"
+
+    # ==========================================
+    # 11. BÖLÜM: SIRLI TERAKOTALAR
+    # ==========================================
+    WHITE_GLAZED_TERRACOTTA:
+      material: WHITE_GLAZED_TERRACOTTA
+      display_name: "&fBeyaz Sırlı Terakota"
+    ORANGE_GLAZED_TERRACOTTA:
+      material: ORANGE_GLAZED_TERRACOTTA
+      display_name: "&6Turuncu Sırlı Terakota"
+    MAGENTA_GLAZED_TERRACOTTA:
+      material: MAGENTA_GLAZED_TERRACOTTA
+      display_name: "&dMacenta Sırlı Terakota"
+    LIGHT_BLUE_GLAZED_TERRACOTTA:
+      material: LIGHT_BLUE_GLAZED_TERRACOTTA
+      display_name: "&bAçık Mavi Sırlı Terakota"
+    YELLOW_GLAZED_TERRACOTTA:
+      material: YELLOW_GLAZED_TERRACOTTA
+      display_name: "&eSarı Sırlı Terakota"
+    LIME_GLAZED_TERRACOTTA:
+      material: LIME_GLAZED_TERRACOTTA
+      display_name: "&aAçık Yeşil Sırlı Terakota"
+    PINK_GLAZED_TERRACOTTA:
+      material: PINK_GLAZED_TERRACOTTA
+      display_name: "&dPembe Sırlı Terakota"
+    GRAY_GLAZED_TERRACOTTA:
+      material: GRAY_GLAZED_TERRACOTTA
+      display_name: "&8Gri Sırlı Terakota"
+    LIGHT_GRAY_GLAZED_TERRACOTTA:
+      material: LIGHT_GRAY_GLAZED_TERRACOTTA
+      display_name: "&7Açık Gri Sırlı Terakota"
+    CYAN_GLAZED_TERRACOTTA:
+      material: CYAN_GLAZED_TERRACOTTA
+      display_name: "&3Camgöbeği Sırlı Terakota"
+    PURPLE_GLAZED_TERRACOTTA:
+      material: PURPLE_GLAZED_TERRACOTTA
+      display_name: "&5Mor Sırlı Terakota"
+    BLUE_GLAZED_TERRACOTTA:
+      material: BLUE_GLAZED_TERRACOTTA
+      display_name: "&9Mavi Sırlı Terakota"
+    BROWN_GLAZED_TERRACOTTA:
+      material: BROWN_GLAZED_TERRACOTTA
+      display_name: "&6Kahverengi Sırlı Terakota"
+    GREEN_GLAZED_TERRACOTTA:
+      material: GREEN_GLAZED_TERRACOTTA
+      display_name: "&2Yeşil Sırlı Terakota"
+    RED_GLAZED_TERRACOTTA:
+      material: RED_GLAZED_TERRACOTTA
+      display_name: "&cKırmızı Sırlı Terakota"
+    BLACK_GLAZED_TERRACOTTA:
+      material: BLACK_GLAZED_TERRACOTTA
+      display_name: "&0Siyah Sırlı Terakota"
+
+  maden: # /rexashop open maden <isim> komutu burayı açar
+    # ==========================================
+    # 1. HAM MADENLER VE KÜLÇELER
+    # ==========================================
+    COAL:
+      material: COAL
+      display_name: "&8Kömür"
+    LAPIS_LAZULI:
+      material: LAPIS_LAZULI
+      display_name: "&9Lapis"
+    REDSTONE:
+      material: REDSTONE
+      display_name: "&cRedstone Tozu"
+    IRON_INGOT:
+      material: IRON_INGOT
+      display_name: "&fDemir Külçesi"
+    GOLD_INGOT:
+      material: GOLD_INGOT
+      display_name: "&6Altın Külçesi"
+    EMERALD:
+      material: EMERALD
+      display_name: "&aZümrüt"
+    DIAMOND:
+      material: DIAMOND
+      display_name: "&bElmas"
+    # ==========================================
+    # 2. SIKIŞTIRILMIŞ MADEN BLOKLARI
+    # ==========================================
+    COAL_BLOCK:
+      material: COAL_BLOCK
+      display_name: "&8Kömür Bloğu"
+    LAPIS_BLOCK:
+      material: LAPIS_BLOCK
+      display_name: "&9Lapis Bloğu"
+    REDSTONE_BLOCK:
+      material: REDSTONE_BLOCK
+      display_name: "&cRedstone Bloğu"
+    IRON_BLOCK:
+      material: IRON_BLOCK
+      display_name: "&fDemir Bloğu"
+    GOLD_BLOCK:
+      material: GOLD_BLOCK
+      display_name: "&6Altın Bloğu"
+    EMERALD_BLOCK:
+      material: EMERALD_BLOCK
+      display_name: "&aZümrüt Bloğu"
+    DIAMOND_BLOCK:
+      material: DIAMOND_BLOCK
+      display_name: "&bElmas Bloğu"
+    NETHERITE_INGOT:
+      material: NETHERITE_INGOT
+      display_name: "&4Netherite Külçesi"
+    NETHERITE_BLOCK:
+      material: NETHERITE_BLOCK
+      display_name: "&4Netherite Bloğu"
+    QUARTZ:
+      material: QUARTZ
+      display_name: "&fNether Kuvarsı"
+    IRON_NUGGET:
+      material: IRON_NUGGET
+      display_name: "&fDemir Parçası"
+    GOLD_NUGGET:
+      material: GOLD_NUGGET
+      display_name: "&eAltın Parçası"
+
+
+  tarim: # /rexashop open tarim <isim> komutu burayı açar
+    # ==========================================
+    # 1. TOHUMLAR VE TEMEL MAHSULLER
+    # ==========================================
+    WHEAT:
+      material: WHEAT
+      display_name: "&eBuğday"
+    PUMPKIN:
+      material: PUMPKIN
+      display_name: "&6Bal Kabağı"
+    MELON:
+      material: MELON
+      display_name: "&aKarpuz"
+    BEETROOT:
+      material: BEETROOT
+      display_name: "&cPancar"
+    SUGAR_CANE:
+      material: SUGAR_CANE
+      display_name: "&aŞeker Kamışı"
+    CARROT:
+      material: CARROT
+      display_name: "&6Havuç"
+    POTATO:
+      material: POTATO
+      display_name: "&ePatates"
+    WHEAT_SEEDS:
+      material: WHEAT_SEEDS
+      display_name: "&eBuğday Tohumu"
+    PUMPKIN_SEEDS:
+      material: PUMPKIN_SEEDS
+      display_name: "&6Bal Kabağı Tohumu"
+    MELON_SEEDS:
+      material: MELON_SEEDS
+      display_name: "&aKarpuz Tohumu"
+    BEETROOT_SEEDS:
+      material: BEETROOT_SEEDS
+      display_name: "&cPancar Tohumu"
+    COCOA_BEANS:
+      material: COCOA_BEANS
+      display_name: "&6Kakao Çekirdeği"
+    SWEET_BERRIES:
+      material: SWEET_BERRIES
+      display_name: "&cTatlı Orman Meyvesi"
+    HONEY_BOTTLE:
+      material: HONEY_BOTTLE
+      display_name: "&6Bal Şişesi"
+    CACTUS:
+      material: CACTUS
+      display_name: "&2Kaktüs"
+    BAMBOO:
+      material: BAMBOO
+      display_name: "&aBambu"
+    MELON_SLICE:
+      material: MELON_SLICE
+      display_name: "&cKarpuz Dilimi"
+    KELP:
+      material: KELP
+      display_name: "&2Su Yosunu"
+    SEAGRASS:
+      material: SEAGRASS
+      display_name: "&aDeniz Otu"
+    VINE:
+      material: VINE
+      display_name: "&2Sarmaşık"
+    POPPY:
+      material: POPPY
+      display_name: "&cGelincik"
+    # ==========================================
+    # 4. MANTARLAR VE NETHER BİTKİLERİ
+    # ==========================================
+    NETHER_WART:
+      material: NETHER_WART
+      display_name: "&4Nether Yumrusu"
+    BROWN_MUSHROOM:
+      material: BROWN_MUSHROOM
+      display_name: "&6Kahverengi Mantar"
+    RED_MUSHROOM:
+      material: RED_MUSHROOM
+      display_name: "&cKırmızı Mantar"
+    CRIMSON_FUNGUS:
+      material: CRIMSON_FUNGUS
+      display_name: "&cKızıl Mantar"
+    WARPED_FUNGUS:
+      material: WARPED_FUNGUS
+      display_name: "&3Çarpık Mantar"
+    # ==========================================
+    # 2. FİDANLAR VE AĞAÇ GRUBU
+    # ==========================================
+    OAK_SAPLING:
+      material: OAK_SAPLING
+      display_name: "&aMeşe Fidanı"
+    SPRUCE_SAPLING:
+      material: SPRUCE_SAPLING
+      display_name: "&2Ladin Fidanı"
+    BIRCH_SAPLING:
+      material: BIRCH_SAPLING
+      display_name: "&aHuş Fidanı"
+    JUNGLE_SAPLING:
+      material: JUNGLE_SAPLING
+      display_name: "&2Orman Ağacı Fidanı"
+    ACACIA_SAPLING:
+      material: ACACIA_SAPLING
+      display_name: "&aAkasya Fidanı"
+    DARK_OAK_SAPLING:
+      material: DARK_OAK_SAPLING
+      display_name: "&2Koyu Meşe Fidanı"
+
+    # ==========================================
+    # 3. DOĞA, BİTKİ VE SU ALTI
+    # ==========================================
+
+  yemek: # /rexashop open yemek <isim> komutu burayı açar
+    # ==========================================
+    # 1. ATIRŞTIRMALIKLAR VE TATLILAR
+    # ==========================================
+    APPLE:
+      material: APPLE
+      display_name: "&cElma"
+    BAKED_POTATO:
+      material: BAKED_POTATO
+      display_name: "&ePişmiş Patates"
+    COOKIE:
+      material: COOKIE
+      display_name: "&6Kurabiye"
+    PUMPKIN_PIE:
+      material: PUMPKIN_PIE
+      display_name: "&6Balkabağı Turtası"
+    CAKE:
+      material: CAKE
+      display_name: "&fPasta"
+
+    # ==========================================
+    # 2. ANA YEMEKLER (DENİZ VE KARA ETLERİ)
+    # ==========================================
+    COOKED_COD:
+      material: COOKED_COD
+      display_name: "&fPişmiş Morina"
+    COOKED_SALMON:
+      material: COOKED_SALMON
+      display_name: "&cPişmiş Somon"
+    COOKED_CHICKEN:
+      material: COOKED_CHICKEN
+      display_name: "&fPişmiş Tavuk"
+    COOKED_RABBIT:
+      material: COOKED_RABBIT
+      display_name: "&cPişmiş Tavşan Eti"
+    COOKED_MUTTON:
+      material: COOKED_MUTTON
+      display_name: "&4Pişmiş Koyun Eti"
+    COOKED_PORKCHOP:
+      material: COOKED_PORKCHOP
+      display_name: "&cPişmiş Domuz Pirzolası"
+    COOKED_BEEF:
+      material: COOKED_BEEF
+      display_name: "&4Biftek"
+
+    # ==========================================
+    # 3. GÜVEÇLER VE ÇORBALAR
+    # ==========================================
+    MUSHROOM_STEW:
+      material: MUSHROOM_STEW
+      display_name: "&cMantar Güveci"
+    RABBIT_STEW:
+      material: RABBIT_STEW
+      display_name: "&6Tavşan Güveci"
+
+    # ==========================================
+    # 4. EFSANEVİ VE BÜYÜLÜ YİYECEKLER
+    # ==========================================
+    GOLDEN_APPLE:
+      material: GOLDEN_APPLE
+      display_name: "&eAltın Elma"
+    ENCHANTED_GOLDEN_APPLE:
+      material: ENCHANTED_GOLDEN_APPLE
+      display_name: "&d&lBüyülü Altın Elma"
+
+  ganimet_esya: # /rexashop open ganimet_esya <isim> komutu burayı açar
+    # ==========================================
+    # 1. ARAÇLAR, GEREÇLER VE MACERA
+    # ==========================================
+    WATER_BUCKET:
+      material: WATER_BUCKET
+      display_name: "&9Su Kovası"
+    LAVA_BUCKET:
+      material: LAVA_BUCKET
+      display_name: "&cLav Kovası"
+    NAME_TAG:
+      material: NAME_TAG
+      display_name: "&eİsim Etiketi"
+    LEAD:
+      material: LEAD
+      display_name: "&6Kayış"
+    SADDLE:
+      material: SADDLE
+      display_name: "&cEyer"
+    CAULDRON:
+      material: CAULDRON
+      display_name: "&8Kazan"
+    HOPPER:
+      material: HOPPER
+      display_name: "&7Huni"
+    IRON_CHAIN:
+      material: IRON_CHAIN
+      display_name: "&7Demir Zincir"
+    GLASS_BOTTLE:
+      material: GLASS_BOTTLE
+      display_name: "&bCam Şişe"
+    ARROW:
+      material: ARROW
+      display_name: "&fOk"
+    STICK:
+      material: STICK
+      display_name: "&eÇubuk"
+
+    # ==========================================
+    # 2. CANAVAR GANİMETLERİ (MOB DROPS)
+    # ==========================================
+    ROTTEN_FLESH:
+      material: ROTTEN_FLESH
+      display_name: "&4Çürük Et"
+    BONE:
+      material: BONE
+      display_name: "&fKemik"
+    GUNPOWDER:
+      material: GUNPOWDER
+      display_name: "&8Barut"
+    STRING:
+      material: STRING
+      display_name: "&fİp"
+    SPIDER_EYE:
+      material: SPIDER_EYE
+      display_name: "&4Örümcek Gözü"
+    SLIME_BALL:
+      material: SLIME_BALL
+      display_name: "&aBalçık Topu"
+    PHANTOM_MEMBRANE:
+      material: PHANTOM_MEMBRANE
+      display_name: "&5Kabus Zarı"
+
+    # ==========================================
+    # 3. EGZOTİK VE NETHER GANİMETLERİ
+    # ==========================================
+    ENDER_PEARL:
+      material: ENDER_PEARL
+      display_name: "&3Ender İncisi"
+    ENDER_EYE:
+      material: ENDER_EYE
+      display_name: "&aEnder Gözü"
+    BLAZE_ROD:
+      material: BLAZE_ROD
+      display_name: "&6Blaze Çubuğu"
+    MAGMA_CREAM:
+      material: MAGMA_CREAM
+      display_name: "&cMagma Kremi"
+    GHAST_TEAR:
+      material: GHAST_TEAR
+      display_name: "&fGhast Gözyaşı"
+    SHULKER_SHELL:
+      material: SHULKER_SHELL
+      display_name: "&dShulker Kabuğu"
+    GLOWSTONE_DUST:
+      material: GLOWSTONE_DUST
+      display_name: "&eIşık Taşı Tozu"
+
+    # ==========================================
+    # 4. HAYVANSAL ÜRÜNLER VE ÇİĞ ETLER
+    # ==========================================
+    LEATHER:
+      material: LEATHER
+      display_name: "&6Deri"
+    RABBIT_HIDE:
+      material: RABBIT_HIDE
+      display_name: "&6Tavşan Postu"
+    RABBIT_FOOT:
+      material: RABBIT_FOOT
+      display_name: "&eTavşan Ayağı"
+    FEATHER:
+      material: FEATHER
+      display_name: "&fTüy"
+    EGG:
+      material: EGG
+      display_name: "&fYumurta"
+    BEEF:
+      material: BEEF
+      display_name: "&cÇiğ İnek Eti"
+    MUTTON:
+      material: MUTTON
+      display_name: "&cÇiğ Koyun Eti"
+    PORKCHOP:
+      material: PORKCHOP
+      display_name: "&cÇiğ Domuz Eti"
+    CHICKEN:
+      material: CHICKEN
+      display_name: "&fÇiğ Tavuk Eti"
+    RABBIT:
+      material: RABBIT
+      display_name: "&cÇiğ Tavşan Eti"
+
+    # ==========================================
+    # 5. OKYANUS, BALIKLAR VE DOĞA
+    # ==========================================
+    COD:
+      material: COD
+      display_name: "&fÇiğ Morina"
+    SALMON:
+      material: SALMON
+      display_name: "&cÇiğ Somon"
+    TROPICAL_FISH:
+      material: TROPICAL_FISH
+      display_name: "&6Tropikal Balık"
+    PUFFERFISH:
+      material: PUFFERFISH
+      display_name: "&eKirpi Balığı"
+    INK_SAC:
+      material: INK_SAC
+      display_name: "&0Mürekkep Kesesi"
+    PRISMARINE_CRYSTALS:
+      material: PRISMARINE_CRYSTALS
+      display_name: "&bPrizmarin Kristali"
+    PRISMARINE_SHARD:
+      material: PRISMARINE_SHARD
+      display_name: "&3Prizmarin Parçacığı"
+    LILY_PAD:
+      material: LILY_PAD
+      display_name: "&2Nilüfer Yaprağı"
+
+    # ==========================================
+    # 6. SANCAK DESENLERİ
+    # ==========================================
+    CREEPER_BANNER_PATTERN:
+      material: CREEPER_BANNER_PATTERN
+      display_name: "&aSancak Deseni (Creeper)"
+    SKULL_BANNER_PATTERN:
+      material: SKULL_BANNER_PATTERN
+      display_name: "&fSancak Deseni (Kafatası)"
+    FLOWER_BANNER_PATTERN:
+      material: FLOWER_BANNER_PATTERN
+      display_name: "&dSancak Deseni (Çiçek)"
+    MOJANG_BANNER_PATTERN:
+      material: MOJANG_BANNER_PATTERN
+      display_name: "&6Sancak Deseni (Şey)"
+    GLOBE_BANNER_PATTERN:
+      material: GLOBE_BANNER_PATTERN
+      display_name: "&9Sancak Deseni (Küre)"
+
+  boya_botanik: # /rexashop open boya_botanik <isim> komutu burayı açar
+    # ==========================================
+    # 1. BOYALAR (TÜM RENKLER)
+    # ==========================================
+    WHITE_DYE:
+      material: WHITE_DYE
+      display_name: "&fBeyaz Boya"
+    LIGHT_GRAY_DYE:
+      material: LIGHT_GRAY_DYE
+      display_name: "&7Açık Gri Boya"
+    GRAY_DYE:
+      material: GRAY_DYE
+      display_name: "&8Gri Boya"
+    BLACK_DYE:
+      material: BLACK_DYE
+      display_name: "&0Siyah Boya"
+    BROWN_DYE:
+      material: BROWN_DYE
+      display_name: "&6Kahverengi Boya"
+    RED_DYE:
+      material: RED_DYE
+      display_name: "&cKırmızı Boya"
+    ORANGE_DYE:
+      material: ORANGE_DYE
+      display_name: "&6Turuncu Boya"
+    YELLOW_DYE:
+      material: YELLOW_DYE
+      display_name: "&eSarı Boya"
+    LIME_DYE:
+      material: LIME_DYE
+      display_name: "&aAçık Yeşil Boya"
+    GREEN_DYE:
+      material: GREEN_DYE
+      display_name: "&2Yeşil Boya"
+    CYAN_DYE:
+      material: CYAN_DYE
+      display_name: "&3Camgöbeği Boya"
+    LIGHT_BLUE_DYE:
+      material: LIGHT_BLUE_DYE
+      display_name: "&bAçık Mavi Boya"
+    BLUE_DYE:
+      material: BLUE_DYE
+      display_name: "&9Mavi Boya"
+    PURPLE_DYE:
+      material: PURPLE_DYE
+      display_name: "&5Mor Boya"
+    MAGENTA_DYE:
+      material: MAGENTA_DYE
+      display_name: "&dMacenta Boya"
+    PINK_DYE:
+      material: PINK_DYE
+      display_name: "&dPembe Boya"
+
+    # ==========================================
+    # 2. KÜÇÜK ÇİÇEKLER VE BİTKİLER
+    # ==========================================
+    DANDELION:
+      material: DANDELION
+      display_name: "&eKarahindiba"
+    POPPY:
+      material: POPPY
+      display_name: "&cGelincik"
+    BLUE_ORCHID:
+      material: BLUE_ORCHID
+      display_name: "&bMavi Orkide"
+    ALLIUM:
+      material: ALLIUM
+      display_name: "&5Alyum"
+    AZURE_BLUET:
+      material: AZURE_BLUET
+      display_name: "&fBeyaz Peygamber Çiçeği"
+    RED_TULIP:
+      material: RED_TULIP
+      display_name: "&cKırmızı Lale"
+    ORANGE_TULIP:
+      material: ORANGE_TULIP
+      display_name: "&6Turuncu Lale"
+    WHITE_TULIP:
+      material: WHITE_TULIP
+      display_name: "&fBeyaz Lale"
+    PINK_TULIP:
+      material: PINK_TULIP
+      display_name: "&dPembe Lale"
+    OXEYE_DAISY:
+      material: OXEYE_DAISY
+      display_name: "&fPapatya"
+    CORNFLOWER:
+      material: CORNFLOWER
+      display_name: "&9Mavi Peygamber Çiçeği"
+    LILY_OF_THE_VALLEY:
+      material: LILY_OF_THE_VALLEY
+      display_name: "&fİnci Çiçeği"
+    SEA_PICKLE:
+      material: SEA_PICKLE
+      display_name: "&2Pirozom (Su Hıyarı)"
+
+    # ==========================================
+    # 3. UZUN ÇİÇEKLER VE ÇALILAR
+    # ==========================================
+    PEONY:
+      material: PEONY
+      display_name: "&dŞakayık"
+    ROSE_BUSH:
+      material: ROSE_BUSH
+      display_name: "&cGül Çalısı"
+    LILAC:
+      material: LILAC
+      display_name: "&5Leylak"
+
+    # ==========================================
+    # 4. NETHER KÖKLERİ
+    # ==========================================
+    CRIMSON_ROOTS:
+      material: CRIMSON_ROOTS
+      display_name: "&cKızıl Kökler"
+    WARPED_ROOTS:
+      material: WARPED_ROOTS
+      display_name: "&3Çarpık Kökler"
+
+    # ==========================================
+    # 5. EĞLENCE VE MÜZİK
+    # ==========================================
+    # ==========================================
+    # 5. EĞLENCE VE MÜZİK (TÜM DİSKLER)
+    # ==========================================
+    MUSIC_DISC_13:
+      material: MUSIC_DISC_13
+      display_name: "&eMüzik Diski - 13"
+    MUSIC_DISC_CAT:
+      material: MUSIC_DISC_CAT
+      display_name: "&aMüzik Diski - Cat"
+    MUSIC_DISC_BLOCKS:
+      material: MUSIC_DISC_BLOCKS
+      display_name: "&6Müzik Diski - Blocks"
+    MUSIC_DISC_CHIRP:
+      material: MUSIC_DISC_CHIRP
+      display_name: "&cMüzik Diski - Chirp"
+    MUSIC_DISC_FAR:
+      material: MUSIC_DISC_FAR
+      display_name: "&bMüzik Diski - Far"
+    MUSIC_DISC_MALL:
+      material: MUSIC_DISC_MALL
+      display_name: "&dMüzik Diski - Mall"
+    MUSIC_DISC_MELLOHI:
+      material: MUSIC_DISC_MELLOHI
+      display_name: "&5Müzik Diski - Mellohi"
+    MUSIC_DISC_STAL:
+      material: MUSIC_DISC_STAL
+      display_name: "&8Müzik Diski - Stal"
+    MUSIC_DISC_STRAD:
+      material: MUSIC_DISC_STRAD
+      display_name: "&fMüzik Diski - Strad"
+    MUSIC_DISC_WARD:
+      material: MUSIC_DISC_WARD
+      display_name: "&2Müzik Diski - Ward"
+    MUSIC_DISC_11:
+      material: MUSIC_DISC_11
+      display_name: "&0Müzik Diski - 11"
+    MUSIC_DISC_WAIT:
+      material: MUSIC_DISC_WAIT
+      display_name: "&bMüzik Diski - Wait"
+    MUSIC_DISC_PIGSTEP:
+      material: MUSIC_DISC_PIGSTEP
+      display_name: "&6Müzik Diski - Pigstep"
+    MUSIC_DISC_OTHERSIDE:
+      material: MUSIC_DISC_OTHERSIDE
+      display_name: "&bMüzik Diski - Otherside"
+    MUSIC_DISC_5:
+      material: MUSIC_DISC_5
+      display_name: "&8Müzik Diski - 5"
+    MUSIC_DISC_RELIC:
+      material: MUSIC_DISC_RELIC
+      display_name: "&6Müzik Diski - Relic"
+    MUSIC_DISC_PRECIPICE:
+      material: MUSIC_DISC_PRECIPICE
+      display_name: "&7Müzik Diski - Precipice"
+    MUSIC_DISC_CREATOR:
+      material: MUSIC_DISC_CREATOR
+      display_name: "&eMüzik Diski - Creator"
+    MUSIC_DISC_CREATOR_MUSIC_BOX:
+      material: MUSIC_DISC_CREATOR_MUSIC_BOX
+      display_name: "&eMüzik Diski - Creator (Müzik Kutusu)"

@@ -1,5 +1,7 @@
 # RexaEco
 
+## ***Download Link: https://modrinth.com/plugin/rexaeco***
+
 *English | [Türkçe](#türkçe)*
 
 **_RexaEco is a comprehensive economy plugin with modern interfaces and Vault support that will completely change your server's economy balance. Forget boring command-based economy; bank upgrades, a Black Market with a dynamic rarity system, Sell Wands, and much more await your players!_**
